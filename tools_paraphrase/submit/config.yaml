@@ -1,0 +1,5 @@
+tools:
+  submit:
+    signature: "submit"
+    docstring: "Submit the file that is currently active."
+    arguments: []

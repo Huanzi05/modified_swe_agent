@@ -1,0 +1,9 @@
+tools:
+  filemap:
+    signature: "filemap <file_path>"
+    docstring: "Display the contents of a Python file while omitting long function and method definitions."
+    arguments:
+      - name: file_path
+        type: string
+        description: The path to the file to be read
+        required: true

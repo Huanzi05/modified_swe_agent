@@ -40,9 +40,9 @@ agent:
       GIT_PAGER: cat
       PIP_INDEX_URL: 'https://pypi.tuna.tsinghua.edu.cn/simple'
     bundles:
-      - path: tools/registry
-      - path: tools/edit_anthropic
-      - path: tools/review_on_submit_m
+      - path: tools_paraphrase/registry
+      - path: tools_paraphrase/edit_anthropic
+      - path: tools_paraphrase/review_on_submit_m
     registry_variables:
       USE_FILEMAP: 'true'
       SUBMIT_REVIEW_MESSAGES:
